@@ -1,22 +1,22 @@
 /* GLOBAL SETTINGS */
-:root{
-    --main-radius:5px;
-    --main-padding:5px;
+:root {
+    --main-radius: 5px;
+    --main-padding: 5px;
 }
 
 
 .dark-mode {
-  background: black;
-  color: black;
-  
+    background: black;
+    color: black;
+
 }
 
 
 /* MAIN CONTAINER */
-.container{
-    background:rgba(255, 255, 255, 0.185);
-    display:grid;
-    height:100%;
+.container {
+    background: rgba(255, 255, 255, 0.185);
+    display: grid;
+    height: 100%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 0.1fr 1fr 1fr 1fr;
     grid-template-areas:
@@ -28,7 +28,7 @@
     position: relative;
     overflow: clip;
     width: 100%;
-/*  padding-top: 56.25%; 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    /*  padding-top: 56.25%; 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 
 
 }
@@ -36,79 +36,79 @@
 
 
 
-nav{
+nav {
     grid-area: nav;
-    border-radius:var(--main-radius);
-    padding-top:var(--main-padding);
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
 
 }
 
-main{
-    background:#ffffff;
+main {
+    background: #ffffff;
     grid-area: main;
-    border-radius:var(--main-radius);
-    padding-top:var(--main-padding);
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
 
 
 }
 
-#sidebar{
-    background:#ffffff;
+#sidebar {
+    background: #ffffff;
     grid-area: sidebar;
-    border-radius:var(--main-radius);
-    padding-top:var(--main-padding);
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
 
 
 }
 
-#inflow{
-    background:#ffffff;
+#inflow {
+    background: #ffffff;
     grid-area: inflow;
-    border-radius:var(--main-radius);
-    padding-top:var(--main-padding);
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
 
 
 }
 
-#heatmap{
-    background:#ffffff;
+#heatmap {
+    background: #ffffff;
     grid-area: heatmap;
-    border-radius:var(--main-radius);
-    padding-top:var(--main-padding);
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
 
 
 }
 
-#tweet-volume{
-    background:#ffffff;
+#tweet-volume {
+    background: #ffffff;
     grid-area: tweet-volume;
-    border-radius:var(--main-radius);
-    padding-top:var(--main-padding);
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
 
 
 }
 
-#put-call{
-    background:#ffffff;
+#put-call {
+    background: #ffffff;
     grid-area: put-call;
-    border-radius:var(--main-radius);
-    padding-top:var(--main-padding);
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
 
 
 }
 
 
 
-#hashrate{
-    background:#ffffff;
+#hashrate {
+    background: #ffffff;
     grid-area: hashrate;
-    border-radius:var(--main-radius);
-    padding-top:var(--main-padding);
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
 
 
 }
 
-.img{
+.img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -116,8 +116,8 @@ main{
 
 
 /* RESIZE FOR MOBILE DEVICES */
-@media only screen and (max-width:1000px){
-    .container{
+@media only screen and (max-width:1000px) {
+    .container {
         grid-template-columns: 1fr;
         grid-template-rows: 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr;
         grid-template-areas:
