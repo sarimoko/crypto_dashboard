@@ -44,7 +44,7 @@ nav{
 }
 
 main{
-    background:#000000;
+    background:#ffffff;
     grid-area: main;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
@@ -53,7 +53,7 @@ main{
 }
 
 #sidebar{
-    background:#000000;
+    background:#ffffff;
     grid-area: sidebar;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
@@ -62,7 +62,7 @@ main{
 }
 
 #inflow{
-    background:#000000;
+    background:#ffffff;
     grid-area: inflow;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
@@ -71,7 +71,7 @@ main{
 }
 
 #heatmap{
-    background:#000000;
+    background:#ffffff;
     grid-area: heatmap;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
@@ -80,7 +80,7 @@ main{
 }
 
 #tweet-volume{
-    background:#000000;
+    background:#ffffff;
     grid-area: tweet-volume;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
@@ -89,7 +89,7 @@ main{
 }
 
 #put-call{
-    background:#000000;
+    background:#ffffff;
     grid-area: put-call;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
@@ -100,7 +100,7 @@ main{
 
 
 #hashrate{
-    background:#000000;
+    background:#ffffff;
     grid-area: hashrate;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
