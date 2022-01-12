@@ -1,6 +1,6 @@
 [![Click HERE!](https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/344/external-dashboard-blogger-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png)](https://jc9361.github.io/crypto_dashboard/)
 # Crypto Dashboard
-Everytime crypto in one place!
+Everything crypto in one place!
 
 ***
 
